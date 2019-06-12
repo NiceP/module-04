@@ -1,0 +1,255 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto';
+    color: #666666;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100:);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1114px;
+    margin: 0 auto;
+    background-color: #ffffff;
+} 
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.page-header {
+    /* background-color: #0e560452; */
+    margin-bottom: 110px;
+}
+.page-nav {
+    padding: 38px 0;
+    
+}
+.site-logo {
+    display: inline-block;
+    
+}
+
+/* .clearfix { 
+    clear: both;
+    display: table;
+    content: '';*/
+
+/* site navigation */
+
+.site-navigation {
+    float: right;
+    width: 476px;
+    /* background-color: red; */
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    
+    /* background-color: green; */
+    
+    
+    
+}
+.site-navigation li {
+   float: left;
+}
+.site-navigation li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.site-navigation a {
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+
+
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #33cc99;
+}
+
+/* featured-poducts */
+
+.featured-products {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.featured-title {
+    margin-bottom: 130px;
+}
+.featured-products-item {
+    float: left;
+    width: 254px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.featured-products-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.featured-products-item:nth-last-child(-n + 4) {
+    margin-bottom: 0;
+}
+
+.featured {
+    margin-bottom: 104px;
+    /* background-color: black; */
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #666666;
+    font-size: 48px;
+}
+
+/* products */
+.image-product {
+    width: 254px;
+    height: 284px;
+    background: rgb(233, 240, 253);
+}
+.name-product {
+    height: 40px;
+    width: 200px;
+    background: rgb(50, 50, 50);
+    float: left;
+    padding-left: 15px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding: 8 96 8 14;
+    display: block;
+}
+.price-product {
+    width: 54px;
+    height: 40px;
+    background: rgb(140, 140, 140);
+    float: left;
+    text-align: center;
+    line-height: 37px;
+    
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.price-color {
+    font-size: 18px;
+}
+
+.featured-products a:hover,
+.featured-products a:focus {
+    color: #33cc99;
+}
+
+/* Latest news */
+
+.news-list {
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+.news-list-item {
+    float: left;
+    max-width: 350px;
+    margin-right: 30px;
+    
+    text-align: justify;
+    margin-bottom: 18px;
+    
+     
+}
+
+.news-list-item:nth-child(3n) {
+    margin-right: 0;
+}
+.news-list-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
+.news-list-item h3 {
+    color: #666666;
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.news-list-item p {
+    color: #666666;
+    line-height: 26px;
+    font-size: 14px;
+    
+}
+
+.news-list {
+    margin-top: 120px;
+    white-space: normal;
+}
+.news-list-text {
+    font-size: 14px;
+    
+}
+.news-list-title {
+    font-size: 18px;
+}
+.news-button {
+    border: none;
+    padding: 18px 10px;
+    margin: 0;
+    background-color: #33cc99;
+    font-size: 16px;
+    line-height: 26px;
+    display: block;
+    width: 160px;
+    height: 50px;
+    
+    color: #fff;
+    text-align-last: center;
+    
+    cursor: pointer;
+}
+
